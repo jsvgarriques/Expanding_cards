@@ -50,4 +50,11 @@ body {
 
     opacity: 1;
 }
-
+@media(max-width: 480px) {
+    .container { width: 100vh;
+    }
+    .panel.panel:ntn-of-type(4),
+    .panel.panel:ntn-of-type(5) {
+    display: none;
+    }
+}
